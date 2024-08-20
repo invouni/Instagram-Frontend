@@ -1,0 +1,33 @@
+:root {
+  --AzureRadiance: #0095f6;
+  --black: #000;
+  --rose: #FF0069;
+  --purplePizzazz: #D300C5;
+  --electricVoilet: #7638FA;
+  --flushOrange: #FF7A00;
+  --gold: #FFD600;
+  --white: #FFFFFF;
+  --dimGrey: #F6F6F6;
+  --paddingX: 0.4rem;
+  --grey: #8B8C96;
+  --darkGrey: #626262;
+  --fontFamily: "Ubuntu";
+  --blackishBlue: #090B0F;
+  --dimLight: #EBF6FF;
+  --shadowBlack: #3E4047;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: black;
+}
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+  background: var(--blackishBlue);
+}
