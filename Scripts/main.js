@@ -170,7 +170,7 @@ const openProfilePage = () => {
   currentOpen.style.opacity = "0";
   profilePage.style.display = "block";
   profilePage.style.opacity = "1";
-  
+  currentOpen = profilePage;
 }
 //
 let removeLoader = () => {
